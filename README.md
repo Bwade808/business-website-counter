@@ -5,6 +5,8 @@ At the start of this project, I thought the API would track any website daily vi
 
 I started off with functionality and then eventually styled it all.  My first task was setting up two input boxes with a button that had an event listener add to it.  The event listener then invoked the functions necessary for the additional features. 
 
+***DISCLAIMER:  Must use Bruce Buffer voice while reading the header***
+
 ![demo1](https://user-images.githubusercontent.com/110626378/190686550-ba0f59d3-2be1-43ca-917b-5d9fd17c108f.jpg)
 
 ## Next Feature - URL view count and Logo API
