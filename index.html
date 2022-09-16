@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Website View Counter</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
+        <script defer src="app.js"></script>
+        
+    </head>
+    <body>
+        <h1>LET'S GET READY TO COUNTTTTTTTTTTT!</h1>
+            <div class="inputBox">
+                <div class="col-auto" id="inputPad">
+                    <label for="staticEmail2" class="visually-hidden">Blue corner: www.</label>
+                    <input type="text" onclick="resetWinner()" class="form-control-plaintext" id="website1">
+                </div>
+                <div class="col-auto">
+                    <label for="inputPassword2" class="visually-hidden">Red corner: www.&nbsp;</label>
+                    <input type="text" onclick="resetWinner()" class="form-control" id="website2">
+                </div>
+                <div class="col-auto" id="compareBtn">
+                    <button type="submit" onclick="countFunc(), countFuncTwo();" id="compareBtn" class="btn btn-primary mb-3">Compare</button>
+                 </div>
+            </div>
+            
+            
+            <div class="visit-results">
+                <div id="visits">Blue Corner Count</div>
+                <div id="visits2">Red Corner Count</div> 
+            </div>
+
+            <div class="blueWins">BLUE CORNER WINS!</div>
+            <div class="redWins">RED CORNER WINS!</div>
+          
+            <div class="logos">
+                <img class="test-1" src="" height="125px">
+                <img class="test-2" src="" height="125px">
+            </div>
+          
+            
+            <div class="topList">
+                <ol>TOP 5 RANKING
+                    <li id="spot-1"></li>
+                    <li id="spot-2"></li>
+                    <li id="spot-3"></li>
+                    <li id="spot-4"></li>
+                    <li id="spot-5"></li>
+                </ol>
+            </div>
+            <div id="visitComp">Created by Brandon W.K Adviento</div>
+
+    </body>
+</html>  

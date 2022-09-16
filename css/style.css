@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url('vs-background.jpg');
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: silver;
+    text-shadow: 5px 5px 8px black;
+    font-size: 60px;
+}
+
+.inputBox {
+    display: block;
+    margin: auto;
+    padding: 15px;
+    background: radial-gradient(silver, rgb(118, 114, 114));
+    border: 5px solid black;
+    border-radius: 10px;
+    width: 400px;
+}
+#compareBtn {
+    text-align: center;
+    margin-top: 5px;
+}
+
+#visitComp {
+    margin-top: 25px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    
+}
+.visit-results {
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+#visits {
+    margin-left: 6%;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 5px 5px 8px rgb(119, 173, 238);
+}
+#visits2 {
+    margin-right: 6%;
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
+    text-shadow: 5px 5px 8px rgba(239, 116, 125, 0.975);
+}
+.logos {
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.test-1 {
+    margin-left: 8%;
+}
+.test-2 {
+    margin-right: 8%;
+}
+
+.topList ol {
+    display:block;
+    margin: auto;
+    margin-top: 160px;
+    width: 150px;
+    text-decoration: underline;
+    color: white;
+    font-size: 20px;
+}
+
+.blueWins {
+    position: absolute;
+    text-align: center;
+    color: rgba(11, 52, 176, 0.561);
+    top: -100px;
+    left: 10%;
+    right: 10%;
+    font-size: 85px;
+    font-weight: bold;
+}
+
+.redWins {
+    position: absolute;
+    text-align: center;
+    color: rgb(151, 8, 8);
+    top: -100px;
+    left: 10%;
+    right: 10%;
+    font-size: 85px;
+    font-weight: bold;
+}
+
+
