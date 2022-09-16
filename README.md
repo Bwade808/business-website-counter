@@ -1,7 +1,7 @@
 # business-website-counter
 ## My Idea
 
-At the start of this project, I thought the API would track any website daily views if the url was input.  That wasn't the case.  I learned that it's used to track your own website views.  To make it interesting I created to text inputs and turned it into a battle of website views.  The way it works is every time I enter it, it adds 1 to the view count.  Other website's that I use regularly already had higher views (google.com, github.etc).  
+At the start of this project, I thought the API would track daily views of any website if the url was typed in the input box.  That wasn't the case.  I learned that it's used to track your own website views.  To make it interesting I created two text inputs and turned it into a battle of website views.  The way it works is every time I enter a url, it adds 1 to the view count.  Other website's that I use regularly already had a view count and added to that each time it was entered(google.com, github.etc).  
 
 I started off with functionality and then eventually styled it all.  My first task was setting up two input boxes with a button that had an event listener add to it.  The event listener then invoked the functions necessary for the additional features. 
 
