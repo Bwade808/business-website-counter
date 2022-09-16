@@ -10,4 +10,5 @@ I started off with functionality and then eventually styled it all.  My first ta
 ## Next Feature - URL view count and Logo API
 After getting my input to get the correct data, I created divs that updates the text of the view count that was returned from invoking a function that used a get method.  I also found a cool little API that retried the logo from the company of the url input into the text boxes. 
 
-![demo2](https://user-images.githubusercontent.com/110626378/190688035-37cd2f7a-e340-406b-95dd-131ab1e90175.jpg)
+![demo3](https://user-images.githubusercontent.com/110626378/190688137-39f6f11f-c151-4e38-8a57-b15e3a20fe33.jpg)
+
