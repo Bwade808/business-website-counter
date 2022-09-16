@@ -18,3 +18,7 @@ After getting my input to get the correct data, I created divs that updates the 
 Somewhere along the way I ended up going with this fight theme so I decided to add a "Top-5 Rankings" that keeps track of the top view counts input into the text boxes.  If a view count falls with the top 5, it gets added and the number 5 position falls off.  If not, it doesn't show up. I wanted to add the url name but ran out of time. 
 
 ![demo4](https://user-images.githubusercontent.com/110626378/190688841-723a61bf-10ea-461e-8a9d-ae21206ff3b9.jpg)
+
+## BONUS
+
+Once I got my main functionalities working I wanted to add a banner that came down from the top of the screen.  I wrote the code for it using some position elements and setIntervals.  It worked and came down with blue or red font, depending on the winner, but couldn't get it to reset.  Ran out of time.  
